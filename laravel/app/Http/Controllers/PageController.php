@@ -10,7 +10,7 @@ class PageController extends Controller
     public function index()
     {
         $movies = Movie::all();
-        $data = ['books' => $movies];
+        $data = ['movies' => $movies];
         return view('/guest/movies', $data);
     }
 }
