@@ -5,7 +5,9 @@
 @endsection
 
 @section('content')
-    Content
+    <div class="container-fluid-movies">
+        
+    </div>
 @endsection
 
 @section('scripts')

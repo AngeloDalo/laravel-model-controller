@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+
+.container-fluid-movies {
+  background-color: green;
+  text-align: center;
+}
+
+header .container-fluid-header {
+  text-transform: uppercase;
+  color: yellow;
+  background-color: red;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+footer .container-fluid-footer {
+  background-color: blue;
+  text-align: center;
+}
+
+footer .container-fluid-footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+footer .container-fluid-footer ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: yellow;
+}
+
